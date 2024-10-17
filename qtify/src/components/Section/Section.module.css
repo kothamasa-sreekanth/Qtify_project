@@ -1,0 +1,19 @@
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 48px;
+}
+
+.header>h4{
+    color: white;
+    font-size: larger;
+}
+
+.header>button{
+    color: var(--color-primary);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: larger;
+} */
