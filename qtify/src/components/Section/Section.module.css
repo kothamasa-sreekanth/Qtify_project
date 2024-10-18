@@ -1,19 +1,27 @@
-.header{
+.sectionTop{
     display: flex;
     justify-content: space-between;
-    margin: 8px 48px;
+    align-items: baseline;
 }
 
-.header>h4{
-    color: white;
-    font-size: larger;
-}
-
-.header>button{
+.toggleText{
     color: var(--color-primary);
-    background: none;
-    border: none;
     cursor: pointer;
-    font-weight: 600;
-    font-size: larger;
+}
+
+.sectionInnerWrapper{
+    margin-top: 18px;
+}
+
+.showAllWrapper{
+    gap: 40px; /*got it from figma*/
+    display: flex;
+    flex-wrap: wrap;  /*"flex-wrap: wrap;" specifies that the flex items(cards here) will wrap(will get adjust to new line) if necessary, Try resizing the browser's window to visualize*/
+}
+
+.progressBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }

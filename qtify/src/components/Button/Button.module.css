@@ -1,9 +1,14 @@
-.feedbackBtn {
-    padding: 1rem;
+.button {
     background-color: var(--color-black);
     color: var(--color-primary);
-    font-weight: 600;
-    border-radius: 1rem;
-    cursor:pointer;
-    font-Family: 'Poppins, sans-serif';
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 16px;
+    margin: 14px;
+    /* my extra from figma */
+    Width: 170px;
+    Height: 47px;
+    font-size:medium;
+
 }
